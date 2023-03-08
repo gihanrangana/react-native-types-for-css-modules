@@ -22,4 +22,6 @@ export interface InputAccessoryViewProps {
   nativeID?: string | undefined;
 
   style?: StyleProp<ViewStyle> | undefined;
+  
+  className?: string
 }

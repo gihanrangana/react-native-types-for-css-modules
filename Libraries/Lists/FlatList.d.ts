@@ -57,6 +57,8 @@ export interface FlatListProps<ItemT> extends VirtualizedListProps<ItemT> {
    */
   columnWrapperStyle?: StyleProp<ViewStyle> | undefined;
 
+  className?: string
+  
   /**
    * Determines when the keyboard should stay visible after a tap.
    * - 'never' (the default), tapping outside of the focused text input when the keyboard is up dismisses the keyboard. When this happens, children won't receive the tap.

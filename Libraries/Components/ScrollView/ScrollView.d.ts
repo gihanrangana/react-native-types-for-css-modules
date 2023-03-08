@@ -728,6 +728,8 @@ export interface ScrollViewProps
    */
   style?: StyleProp<ViewStyle> | undefined;
 
+  className?: string
+
   /**
    * A RefreshControl component, used to provide pull-to-refresh
    * functionality for the ScrollView.

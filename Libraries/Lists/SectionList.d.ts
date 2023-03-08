@@ -94,6 +94,8 @@ export interface SectionListProps<ItemT, SectionT = DefaultSectionT>
    */
   ListHeaderComponentStyle?: StyleProp<ViewStyle> | undefined | null;
 
+  className?: string
+
   /**
    * Rendered in between each section.
    */

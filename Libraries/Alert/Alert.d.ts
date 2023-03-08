@@ -6,6 +6,7 @@ export interface AlertButton {
   onPress?: ((value?: string) => void) | undefined;
   isPreferred?: boolean;
   style?: 'default' | 'cancel' | 'destructive' | undefined;
+  className?: string
 }
 
 interface AlertOptions {

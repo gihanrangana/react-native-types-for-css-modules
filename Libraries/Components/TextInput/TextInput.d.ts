@@ -737,6 +737,8 @@ export interface TextInputProps
    */
   style?: StyleProp<TextStyle> | undefined;
 
+  className?: string
+
   /**
    * Align the input text to the left, center, or right sides of the input field.
    */

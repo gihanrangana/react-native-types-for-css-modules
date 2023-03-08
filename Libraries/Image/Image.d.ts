@@ -253,6 +253,8 @@ export interface ImageProps extends ImagePropsBase {
    * Style
    */
   style?: StyleProp<ImageStyle> | undefined;
+
+  className?: string
 }
 
 declare class ImageComponent extends React.Component<ImageProps> {}
@@ -293,6 +295,7 @@ export interface ImageBackgroundProps extends ImagePropsBase {
   imageStyle?: StyleProp<ImageStyle> | undefined;
   style?: StyleProp<ViewStyle> | undefined;
   imageRef?(image: Image): void;
+  className?: string
 }
 
 declare class ImageBackgroundComponent extends React.Component<ImageBackgroundProps> {}

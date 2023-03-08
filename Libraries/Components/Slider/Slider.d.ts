@@ -88,6 +88,8 @@ export interface SliderProps extends SliderPropsIOS, SliderPropsAndroid {
    */
   style?: StyleProp<ViewStyle> | undefined;
 
+  className?: string
+
   /**
    * Used to locate this view in UI automation tests.
    */

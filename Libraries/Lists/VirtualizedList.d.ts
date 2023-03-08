@@ -147,6 +147,8 @@ export interface VirtualizedListWithoutRenderItemProps<ItemT>
     */
   ListFooterComponentStyle?: StyleProp<ViewStyle> | undefined;
 
+  className?: string
+
   /**
    * Rendered at the top of all the items. Can be a React Component Class, a render function, or
    * a rendered element.
@@ -161,6 +163,7 @@ export interface VirtualizedListWithoutRenderItemProps<ItemT>
    * Styling for internal View for ListHeaderComponent
    */
   ListHeaderComponentStyle?: StyleProp<ViewStyle> | undefined;
+  
 
   /**
    * The default accessor functions assume this is an Array<{key: string}> but you can override

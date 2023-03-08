@@ -34,6 +34,7 @@ export interface ActivityIndicatorProps extends ViewProps {
   size?: number | 'small' | 'large' | undefined;
 
   style?: StyleProp<ViewStyle> | undefined;
+  className?: string
 }
 
 declare class ActivityIndicatorComponent extends React.Component<ActivityIndicatorProps> {}
@@ -74,4 +75,6 @@ export interface ActivityIndicatorIOSProps extends ViewProps {
   size?: 'small' | 'large' | undefined;
 
   style?: StyleProp<ViewStyle> | undefined;
+
+  className?: string
 }

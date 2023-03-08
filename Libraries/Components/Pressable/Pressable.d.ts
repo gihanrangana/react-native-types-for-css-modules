@@ -150,6 +150,8 @@ export interface PressableProps
    * Duration (in milliseconds) to wait after press down before calling onPressIn.
    */
   unstable_pressDelay?: number;
+
+  className?: string
 }
 
 // TODO use React.AbstractComponent when available
