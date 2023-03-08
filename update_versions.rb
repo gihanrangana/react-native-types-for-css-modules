@@ -1,5 +1,5 @@
 puts "reading newest Git tag..."
-newest_tag = `git describe --tags $(git rev-list --tags --max-count=1)`
+newest_tag = `git describe --tags`
 puts newest_tag
 if $?.exitstatus != 0
   raise "no git tag, exiting..."

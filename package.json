@@ -1,13 +1,11 @@
 {
   "name": "react-native-types-for-css-modules",
-  "version": "0.70.11",
+  "version": "0.71.3",
   "private": true,
   "description": "TypeScript definitions for react-native CSS modules",
   "main": "index.d.ts",
   "files": [
-    "index.d.ts",
-    "globals.d.ts",
-    "BatchedBridge.d.ts"
+    "index.d.ts"
   ],
   "dependencies": {
     "@types/react": "*"
